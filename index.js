@@ -1,4 +1,4 @@
-var express = require('express');
+/* var express = require('express');
 var app = express();
 console.log('HELLO THERE');
 
@@ -15,3 +15,5 @@ app.get('/', function (req, res) {
 });
 
 app.listen(server_port, server_ip_address);
+ */
+console.log('Hello world!!!');
