@@ -8,6 +8,7 @@ var Setup = require('./initialSetup');
 var initialSetup = Setup.initSetup;
 
 app.get('/', function (req, res) {
+   console.log('Listen... xD');
    initialSetup.price[0].caption = "HELLO THERE"
    res.send(initialSetup);
 });
